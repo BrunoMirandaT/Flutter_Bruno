@@ -142,19 +142,20 @@ class Form extends StatelessWidget {
                   labelText: 'Telefone',
                 ),
               ),
+              const SizedBox(height: 20),
               ElevatedButton(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            child: const Text(
-              "Enviar",
-              style: TextStyle(fontSize: 10),
-            ),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Color.fromARGB(255, 0, 255, 106),
-              foregroundColor: Colors.white,
-            ),
-          ),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: const Text(
+                  "Enviar",
+                  style: TextStyle(fontSize: 10),
+                ),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Color.fromARGB(255, 0, 255, 106),
+                  foregroundColor: Colors.white,
+                ),
+              ),
             ]),
           ),
         ]),
